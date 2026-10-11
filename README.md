@@ -9,8 +9,8 @@ Built with [Hugo](https://gohugo.io) using Pascal Michaillat's [hugo-website](ht
 ## Where things live
 
 - `config.yml` — name, bio, menu, and contact icons
-- `content/papers/` — one folder per paper (`index.md` plus its PDF).
-- `content/jmp.md` — job market paper page
+- `content/papers/` — one folder per paper (`index.md` plus its PDF). The `weight:` line sets the order (1 = top).
+- `content/papers/jmp/` — job market paper page (shown under both the Job Market Paper and Papers tabs; PDF is `static/jmp.pdf`)
 - `content/teaching.md` — teaching page
 - `static/cv.pdf` — CV
 - `static/picture.jpeg` — profile photo

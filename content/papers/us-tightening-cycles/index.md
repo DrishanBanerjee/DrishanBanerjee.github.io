@@ -1,6 +1,7 @@
 ---
 title: "This Time Is (Mostly) Different: U.S. Tightening Cycles and Global Resilience in the 1980s vs 2020s"
 date: 2026-08-31
+weight: 1
 tags: ["monetary policy","fiscal space","sudden stops","emerging markets","Mundell-Fleming","international finance"]
 author: ["Drishan Banerjee","Galina Hale","Harrison Shieh"]
 description: "Paper by Drishan Banerjee (with Galina Hale and Harrison Shieh): U.S. tightening cycles and global resilience in the 1980s vs the 2020s. NBER Working Paper 35673."
