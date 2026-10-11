@@ -18,6 +18,7 @@ editPost:
 
 + [Paper](w35673.pdf)
 + [NBER Working Paper 35673](https://www.nber.org/papers/w35673)
++ [CEPR Discussion Paper 21874](https://cepr.org/system/files/publication-files/DP21874.pdf)
 
 ---
 
