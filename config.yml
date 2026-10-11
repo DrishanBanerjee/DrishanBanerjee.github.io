@@ -1,6 +1,7 @@
 baseURL: "https://drishanbanerjee.github.io/"
 title: Drishan Banerjee
 theme: PaperMod
+copyright: "© 2026 Drishan Banerjee. All rights reserved."
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
