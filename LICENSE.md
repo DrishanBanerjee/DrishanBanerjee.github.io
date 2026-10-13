@@ -6,7 +6,7 @@ Copyright © 2026 Drishan Banerjee. All rights reserved.
 
 Except for the third-party code listed in the next section, everything in this repository and on https://drishanbanerjee.github.io is copyrighted by Drishan Banerjee and is not licensed for reuse. This includes, without limitation:
 
-- research papers, drafts, abstracts, citations and any other documents (`content/`, `static/jmp.pdf`)
+- research papers, drafts, abstracts, citations and any other documents (`content/`, `static/DrishanBanerjeeJMP.pdf`)
 - the curriculum vitae (`static/cv.pdf`)
 - the profile picture (`static/picture.jpeg`)
 - all page text, including the biography, links and other personal details in `config.yml`, and this repository's `README.md`

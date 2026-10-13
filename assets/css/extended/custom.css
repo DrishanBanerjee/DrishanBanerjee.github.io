@@ -39,3 +39,13 @@
 .post-content li {
     margin-top: 2px;
 }
+
+/* Papers list: a soft grey tint on hover so the cards read as clickable */
+.post-entry {
+    transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.post-entry:hover {
+    background-color: #f2f4f8;
+    box-shadow: 0 2px 10px rgba(30, 40, 60, 0.06);
+}
