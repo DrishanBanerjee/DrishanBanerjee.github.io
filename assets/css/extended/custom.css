@@ -1,0 +1,15 @@
+/* Working-paper series line shown under a paper's title on the Papers list */
+.entry-venue {
+    margin: 6px 0 0;
+    color: var(--secondary);
+    font-size: 15px;
+    line-height: var(--lineheight);
+}
+
+/* Keep these links clickable above the card's full-size link */
+.entry-venue a {
+    position: relative;
+    z-index: 1;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
