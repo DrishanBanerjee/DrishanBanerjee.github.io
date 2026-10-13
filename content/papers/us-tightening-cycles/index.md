@@ -23,15 +23,15 @@ editPost:
 
 ---
 
-##### Abstract
-
-Post-pandemic inflation raised fears that U.S. monetary tightening would trigger a repeat of the 1982 sudden stop in capital flows to emerging economies. Yet as of 2026 no global recession has followed. We establish three stylized facts distinguishing the 1980s from the 2020s, beyond the shift to flexible exchange rates: monetary policy effectiveness, fiscal space, and external vulnerabilities. We rationalize them in a Mundell-Fleming framework with a fiscal space constraint, which predicts a central role for fiscal space in transmitting foreign currency risk-free rate increases. Cross-country evidence confirms that fiscal space shapes economic performance post-tightening.
-
----
-
 ##### Media coverage
 
 + [Financial Times (FT Alphaville): "This time it really was different"](https://www.ft.com/content/15de7725-234a-448a-9cc6-12500a47aada)
+
+---
+
+##### Abstract
+
+Post-pandemic inflation raised fears that U.S. monetary tightening would trigger a repeat of the 1982 sudden stop in capital flows to emerging economies. Yet as of 2026 no global recession has followed. We establish three stylized facts distinguishing the 1980s from the 2020s, beyond the shift to flexible exchange rates: monetary policy effectiveness, fiscal space, and external vulnerabilities. We rationalize them in a Mundell-Fleming framework with a fiscal space constraint, which predicts a central role for fiscal space in transmitting foreign currency risk-free rate increases. Cross-country evidence confirms that fiscal space shapes economic performance post-tightening.
 
 ---
 

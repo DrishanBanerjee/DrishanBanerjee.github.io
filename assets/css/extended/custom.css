@@ -13,3 +13,29 @@
     text-decoration: underline;
     text-underline-offset: 2px;
 }
+
+/* Tighter spacing on paper pages so the links, media coverage and the
+   start of the abstract all fit on the first screen */
+.post-header {
+    margin-bottom: 12px;
+}
+
+.post-title {
+    margin-bottom: 10px;
+}
+
+.post-content hr {
+    margin: 14px 0;
+}
+
+.post-content h5 {
+    margin: 0 0 6px;
+}
+
+.post-content ul {
+    margin-bottom: 0;
+}
+
+.post-content li {
+    margin-top: 2px;
+}
