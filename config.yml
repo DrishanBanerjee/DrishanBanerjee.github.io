@@ -53,7 +53,7 @@ params:
     profileMode:
           enabled: true
           title: Drishan Banerjee
-          subtitle: "I am a PhD candidate in economics at the University of California, Santa Cruz. My research interests are in macroeconomics and international finance."
+          subtitle: "I am a PhD candidate in economics at the University of California, Santa Cruz. I am on the 2026–27 job market and am open to opportunities globally. My research interests are in macroeconomics, international economics and finance, and climate finance. In my job market paper, I analyze how macroprudential policy that makes banks safer can push firms toward foreign currency debt and the exchange rate risk that comes with it, and what this trade-off between bank safety and firm fragility implies for optimal macroprudential regulation."
           imageUrl: picture.jpeg
           imageWidth: 160
           imageHeight: 160
