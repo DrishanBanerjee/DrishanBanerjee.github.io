@@ -12,7 +12,7 @@ Built with [Hugo](https://gohugo.io) using Pascal Michaillat's [hugo-website](ht
 - `content/papers/` — one folder per paper (`index.md` plus its PDF). The `weight:` line sets the order (1 = top).
 - `content/papers/jmp/` — job market paper page (shown under both the Job Market Paper and Papers tabs; PDF is `static/DrishanBanerjeeJMP.pdf`)
 - `content/teaching.md` — teaching page
-- `static/cv.pdf` — CV
+- `static/DrishanBanerjeeCV.pdf` — CV
 - `static/picture.jpeg` — profile photo
 
 Any change pushed to the `main` branch rebuilds and republishes the site automatically (see the Actions tab).

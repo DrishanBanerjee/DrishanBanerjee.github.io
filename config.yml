@@ -23,7 +23,7 @@ menu:
           url: teaching/
           weight: 3
         - name: CV
-          url: cv.pdf
+          url: DrishanBanerjeeCV.pdf
           weight: 4
 
 params:
@@ -65,13 +65,13 @@ params:
             - name: Teaching
               url: teaching/
             - name: CV
-              url: cv.pdf
+              url: DrishanBanerjeeCV.pdf
 
     # Icons shown under your bio. To add one, remove the "#" in front of
     # its two lines and replace the placeholder link with your own.
     socialIcons:
         - name: CV
-          url: cv.pdf
+          url: DrishanBanerjeeCV.pdf
         - name: Email
           url: mailto:drbanerj@ucsc.edu
         - name: Google Scholar
