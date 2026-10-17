@@ -49,3 +49,24 @@
     background-color: #f2f4f8;
     box-shadow: 0 2px 10px rgba(30, 40, 60, 0.06);
 }
+
+/* Small "Course materials" button on the Teaching page */
+.post-content a.course-btn {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 0 10px;
+    font-size: 13px;
+    line-height: 1.8;
+    vertical-align: 1px;
+    color: var(--primary);
+    background: var(--code-bg);
+    border: 1px solid var(--tertiary);
+    border-radius: 6px;
+    box-shadow: none;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.post-content a.course-btn:hover {
+    background: #f2f4f8;
+    border-color: var(--darkcolor);
+}

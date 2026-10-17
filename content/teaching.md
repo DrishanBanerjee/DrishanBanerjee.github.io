@@ -17,7 +17,7 @@ description: "Teaching experience of Drishan Banerjee at UC Santa Cruz."
 
 ##### Teaching Assistant at UCSC
 
-+ ECON 233 – Finance (Graduate), 2025
++ ECON 233 – Finance (Graduate), 2025 <a class="course-btn" href="/teaching/econ233/">Course materials</a>
 + ECON 100A – Intermediate Microeconomics (Undergraduate), 2025
 + ECON 2 – Introductory Macroeconomics (Undergraduate), 2024, 2026
 + ECON 113 – Introductory Econometrics (Undergraduate), 2023, 2024
