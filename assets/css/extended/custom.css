@@ -261,3 +261,15 @@
     font-weight: 600;
     color: var(--primary);
 }
+
+/* "Policy Reports" heading on the Papers page, below the papers */
+.list-section-title {
+    margin: 36px 0 14px;
+    padding-top: 18px;
+    border-top: 1px solid var(--tertiary);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--secondary);
+}

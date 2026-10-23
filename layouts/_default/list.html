@@ -25,6 +25,10 @@
 
 {{- $pages := union .RegularPages .Sections }}
 
+{{- /* Policy reports are listed separately, under their own heading below the papers */}}
+{{- $reports := where $pages "Params.policyReport" true }}
+{{- $pages = where $pages "Params.policyReport" "!=" true }}
+
 {{- if .IsHome }}
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
@@ -79,6 +83,24 @@
   {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
+{{- end }}
+
+{{- with $reports }}
+<h2 class="list-section-title">Policy Reports</h2>
+{{- range . }}
+<article class="post-entry">
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">{{- .Title }}</h2>
+  </header>
+  {{- with .Params.venue }}
+  <div class="entry-venue">{{ . | markdownify }}</div>
+  {{- end }}
+  <div class="entry-content">
+    <p>{{ .Summary | plainify | htmlUnescape }}</p>
+  </div>
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
+{{- end }}
 {{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}
