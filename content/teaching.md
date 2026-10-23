@@ -23,7 +23,7 @@ description: "Teaching experience of Drishan Banerjee at UC Santa Cruz."
 + ECON 113 – Introductory Econometrics (Undergraduate), 2023, 2024 <button class="eval-btn" data-course="econ113">View</button>
 + ECON 126 – Why Economies Succeed or Fail (Undergraduate), 2022 <button class="eval-btn" data-course="econ126">View</button>
 + ECON 101 – Managerial Economics (Undergraduate), 2024 <button class="eval-btn" data-course="econ101">View</button>
-+ COWL 52 – Personal Finance (Undergraduate), 2023
++ COWL 52 – Personal Finance (Undergraduate), 2023, 2026
 + ECON 197 – Economic Rhetoric (Undergraduate), 2023
 
 ---
