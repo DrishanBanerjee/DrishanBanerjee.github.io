@@ -70,3 +70,194 @@
     background: #f2f4f8;
     border-color: var(--darkcolor);
 }
+
+/* ---------- Teaching page: selected student evaluations ---------- */
+
+/* Right-hand column label on the section headings */
+.post-content h5 .eval-col {
+    float: right;
+    margin-top: 3px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: var(--secondary);
+}
+
+/* Room on the right of each course line for the button column */
+.post-content li:has(.eval-btn) {
+    padding-right: 72px;
+    position: relative;
+}
+
+/* "View" button, same look as the Course materials button */
+.post-content .eval-btn {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 58px;
+    padding: 0;
+    font: inherit;
+    font-size: 13px;
+    line-height: 1.8;
+    color: var(--primary);
+    background: var(--code-bg);
+    border: 1px solid var(--tertiary);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.post-content .eval-btn:hover {
+    background: #f2f4f8;
+    border-color: var(--darkcolor);
+}
+
+/* Pop-up window */
+#eval-dialog {
+    width: min(920px, 94vw);
+    max-height: 90vh;
+    padding: 0;
+    border: 1px solid var(--tertiary);
+    border-radius: 10px;
+    background: var(--entry);
+    color: var(--primary);
+    box-shadow: 0 12px 40px rgba(20, 30, 50, 0.18);
+    overflow: hidden;
+}
+
+#eval-dialog[open] {
+    display: flex;
+    flex-direction: column;
+}
+
+#eval-dialog::backdrop {
+    background: rgba(20, 25, 35, 0.45);
+}
+
+#eval-dialog .eval-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px 20px 10px;
+}
+
+#eval-dialog .eval-title {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#eval-dialog .eval-sub {
+    font-size: 13px;
+    color: var(--secondary);
+}
+
+#eval-dialog .eval-close {
+    font-size: 26px;
+    line-height: 1;
+    padding: 0 4px;
+    color: var(--secondary);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#eval-dialog .eval-close:hover {
+    color: var(--primary);
+}
+
+/* Quarter tabs */
+#eval-dialog .eval-tabs {
+    display: flex;
+    gap: 6px;
+    padding: 0 20px;
+    border-bottom: 1px solid var(--tertiary);
+}
+
+#eval-dialog .eval-tabs button {
+    padding: 6px 12px;
+    font-size: 14px;
+    color: var(--secondary);
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    cursor: pointer;
+}
+
+#eval-dialog .eval-tabs button[aria-selected="true"] {
+    color: var(--primary);
+    font-weight: 600;
+    border-bottom-color: var(--primary);
+}
+
+#eval-dialog .eval-body {
+    padding: 16px 20px 20px;
+    overflow-y: auto;
+}
+
+#eval-dialog .eval-body img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 14px;
+    border: 1px solid var(--tertiary);
+    border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+    .post-content h5 .eval-col { display: none; }
+}
+
+/* Wide screens: move the evaluations column into the right margin,
+   outside the text column, so it never overlaps course titles */
+@media (min-width: 1250px) {
+    .post-content h5 { position: relative; }
+
+    .post-content h5 .eval-col {
+        float: none;
+        position: absolute;
+        right: -210px;
+        top: 0;
+        width: 200px;
+        margin-top: 3px;
+        font-size: 11px;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .post-content li:has(.eval-btn) { padding-right: 0; }
+
+    .post-content .eval-btn {
+        right: -139px;
+    }
+
+    /* Extend the grey divider lines out to the end of the column label
+       (Teaching page only) */
+    .post-content:has(.eval-col) hr {
+        margin-right: -210px;
+    }
+}
+
+/* Headings inside the evaluations pop-up */
+#eval-dialog .eval-section {
+    margin: 6px 0 10px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--secondary);
+}
+
+#eval-dialog .eval-section ~ .eval-section {
+    margin-top: 26px;
+    padding-top: 18px;
+    border-top: 1px solid var(--tertiary);
+}
+
+#eval-dialog .eval-group {
+    margin: 14px 0 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--primary);
+}
