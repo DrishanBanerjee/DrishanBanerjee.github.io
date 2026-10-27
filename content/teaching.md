@@ -6,6 +6,8 @@ description: "Teaching experience of Drishan Banerjee at UC Santa Cruz."
 
 ---
 
+<a class="statement-btn" href="/DrishanBanerjeeTeachingStatement.pdf">Teaching Statement</a>
+
 ---
 
 ##### Instructor of Record at UCSC <span class="eval-col">Selected student evaluations</span>
