@@ -293,3 +293,9 @@
     background: #f2f4f8;
     border-color: var(--darkcolor);
 }
+
+/* Grey "(Job Market Paper)" note after the title on the Papers tab */
+.entry-title-note {
+    color: var(--secondary);
+    font-weight: 400;
+}

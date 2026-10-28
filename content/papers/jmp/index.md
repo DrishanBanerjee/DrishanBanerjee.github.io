@@ -3,6 +3,7 @@ title: "Over the Hills and Far Away: Macroprudential Policy and Firm Foreign Exc
 date: 2026-10-01
 url: /jmp/
 weight: 2
+titleNote: "Job Market Paper"
 tags: ["macroprudential policy","foreign currency debt","currency mismatch","firm balance sheets","emerging markets","India"]
 author: ["Drishan Banerjee"]
 description: "Job market paper by Drishan Banerjee on how macroprudential policy pushes firms toward foreign-currency borrowing, using data on Indian firms."
