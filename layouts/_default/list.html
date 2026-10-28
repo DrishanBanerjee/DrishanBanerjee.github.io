@@ -29,6 +29,10 @@
 {{- $reports := where $pages "Params.policyReport" true }}
 {{- $pages = where $pages "Params.policyReport" "!=" true }}
 
+{{- /* Work in progress is listed separately too, between the papers and the policy reports */}}
+{{- $wip := where $pages "Params.workInProgress" true }}
+{{- $pages = where $pages "Params.workInProgress" "!=" true }}
+
 {{- if .IsHome }}
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
@@ -83,6 +87,27 @@
   {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
+{{- end }}
+
+{{- with $wip }}
+<h2 class="list-section-title">Work in Progress</h2>
+{{- range .ByWeight }}
+<article class="post-entry">
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">{{- .Title }}</h2>
+  </header>
+  {{- with .Params.venue }}
+  <div class="entry-venue">{{ . | markdownify }}</div>
+  {{- end }}
+  <div class="entry-content">
+    <p>{{ .Summary | plainify | htmlUnescape }}</p>
+  </div>
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" . -}}
+  </footer>
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
+{{- end }}
 {{- end }}
 
 {{- with $reports }}
