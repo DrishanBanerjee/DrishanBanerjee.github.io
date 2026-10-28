@@ -10,7 +10,7 @@ description: "Teaching experience of Drishan Banerjee at UC Santa Cruz."
 
 ---
 
-##### Instructor of Record at UCSC <span class="eval-col">Selected student evaluations</span>
+##### Primary Instructor at UCSC <span class="eval-col">Selected student evaluations</span>
 
 + ECON 294A(R) – Applied Economics and Finance Laboratory (Graduate), 2026 <button class="eval-btn" data-course="econ294ar">View</button>
 + ECON 2 – Introductory Macroeconomics (Undergraduate), 2025, 2026 <button class="eval-btn" data-course="econ2ior">View</button>
