@@ -1,5 +1,5 @@
 ---
-title: "Papers"
+title: "Research"
 description: "Working papers and research in progress by Drishan Banerjee."
 ---
 

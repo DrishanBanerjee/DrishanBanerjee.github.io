@@ -16,7 +16,7 @@ menu:
         - name: Job Market Paper
           url: jmp/
           weight: 1
-        - name: Papers
+        - name: Research
           url: papers/
           weight: 2
         - name: Teaching
@@ -60,7 +60,7 @@ params:
           buttons:
             - name: Job Market Paper
               url: jmp/
-            - name: Papers
+            - name: Research
               url: papers/
             - name: Teaching
               url: teaching/
